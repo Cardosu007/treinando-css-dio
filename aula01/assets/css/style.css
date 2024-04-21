@@ -1,0 +1,46 @@
+.container {
+    background: yellow;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 500px;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr; /* Pode ser usado repeat (5, 1fr) */
+    grid-template-rows: 2fr 1fr;
+}
+
+.item {
+    border: 1px solid black;
+}
+
+.item-01 {
+    background-color: darksalmon;
+}
+
+.item-02 {
+    background-color: rgb(235, 76, 48);
+}
+
+.item-03 {
+    background-color: rgb(85, 231, 55);
+}
+
+.item-04 {
+    background-color: rgb(68, 228, 134);
+}
+
+.item-05 {
+    background-color: rgb(56, 141, 221);
+}
+
+.item-06 {
+    background-color: rgb(165, 122, 233);
+}
+
+.item-07 {
+    background-color: rgb(233, 122, 187);
+}
+
+.item-08 {
+    background-color: rgb(235, 73, 73);
+}
